@@ -153,6 +153,20 @@
         -->
 	EasyNLP is an easy-to-use NLP development and application toolkit in PyTorch, first released inside Alibaba in 2021. It is built with scalable distributed training strategies and supports a comprehensive suite of NLP algorithms for various NLP applications. EasyNLP integrates knowledge distillation and few-shot learning for landing large pre-trained models, together with various popular multi-modality pre-trained models. It provides a unified framework of model training, inference, and deployment for real-world applications. It has powered more than 10 BUs and more than 20 business scenarios within the Alibaba group. It is seamlessly integrated to Platform of AI (PAI) products, including PAI-DSW for development, PAI-DLC for cloud-native training, PAI-EAS for serving, and PAI-Designer for zero-code model training.
         </p> 
+	
+	<h4><li>HugNLP: A Unified and Comprehensive Library for
+Natural Language Processing </li></h4>
+        <img style="width:96%;" src="images/hugnlp.png">
+        <p class="w3-justify">
+        <a style="color: #447ec9" href="https://github.com/alibaba/EasyNLP">Project Page</a>
+        </p>
+        <p class="w3-justify">
+	<!--
+        I would like to say, <span style="color:red">AdderNet is very cool!</span> The initial idea was came up in about 2017 when climbing with some friends at Beijing. By replacing all convolutional layers (except the first and the last layers), we now can obtain comparable performance on ResNet architectures. In addition, to make the story more complete, we recent release the hardware implementation and some quantization methods. The results are quite encouraging, we can reduce both <strong>the energy consumption and thecircuit areas significantly without affecting the performance</strong>. Now, we are working on more applications to reduce the costs of launching AI algorithms such as low-level vision, detection, and NLP tasks.
+        -->
+	In HugNLP, we provide some popular transformer-based models as backbones, such as BERT, RoBERTa, GPT-2, etc. We also release our pre-built KP-PLM, a novel knowledge-enhanced pre-training paradigm to inject factual knowledge and can be easily used for arbitrary PLMs. Apart from basic PLMs, we also implement some task-specific models, involving sequence classification, matching, labeling, span extraction, multi-choice, and text generation. Notably, we develop standard fine-tuning (based on CLS Head and prompt-tuning models that enable PLM tuning on classification tasks. For few-shot learning settings, HugNLP provides a prototypical network in both few-shot text classification and named entity recognition (NER).
+        </p> 
+	
 	<!--
         <h4><li>GhostNet on MindSpore: SOTA Lightweight CV Networks</li></h4>
         <img style="width:96%;" src="images/GhostNet.png"> 
